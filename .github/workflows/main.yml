@@ -6,12 +6,11 @@ on:
       -main
 
 jobs:
-  example-jobs:
-    runs-on: ubuntu-latest
+ compile:
+    runs-on: self-hosted
 
     steps:
-      - name: Print a welcome message
-        run: echo "welcome to my place"
+      - name: Test runner
+        run: echo "Runner is working"
         
-      
-    
+   
